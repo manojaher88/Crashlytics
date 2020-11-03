@@ -28,6 +28,10 @@
 		F5E7D11B254FBCEC00674886 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E7D119254FBCEC00674886 /* Main.storyboard */; };
 		F5E7D11D254FBCFB00674886 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5E7D11C254FBCFB00674886 /* Assets.xcassets */; };
 		F5E7D120254FBCFB00674886 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E7D11E254FBCFB00674886 /* LaunchScreen.storyboard */; };
+		F5F40FFE2550D65E0080B914 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F40FFD2550D65E0080B914 /* Default-568h@2x.png */; };
+		F5F40FFF2550D6620080B914 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F40FFD2550D65E0080B914 /* Default-568h@2x.png */; };
+		F5F410052550D6B30080B914 /* Master-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5F410022550D6B30080B914 /* Master-Info.plist */; };
+		F5F410062550D6B30080B914 /* Littleboy-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5F410032550D6B30080B914 /* Littleboy-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,9 +45,7 @@
 		D529F2A5C3BED586DD96D7D2 /* Pods-Dame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dame.release.xcconfig"; path = "Target Support Files/Pods-Dame/Pods-Dame.release.xcconfig"; sourceTree = "<group>"; };
 		E927FB25EDBA7B6726DE4320 /* Pods-LittleBoy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittleBoy.debug.xcconfig"; path = "Target Support Files/Pods-LittleBoy/Pods-LittleBoy.debug.xcconfig"; sourceTree = "<group>"; };
 		F52C3A23254FDD4600AEA931 /* LittleBoy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittleBoy.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F52C3A24254FDD4600AEA931 /* Dame copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Dame copy-Info.plist"; path = "/Users/amanoj/Desktop/BaaBlackSheep/Dame copy-Info.plist"; sourceTree = "<absolute>"; };
 		F52C3A34254FDD4E00AEA931 /* Master.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Master.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F52C3A35254FDD4E00AEA931 /* LittleBoy copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "LittleBoy copy-Info.plist"; path = "/Users/amanoj/Desktop/BaaBlackSheep/LittleBoy copy-Info.plist"; sourceTree = "<absolute>"; };
 		F5E7D110254FBCEC00674886 /* Dame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5E7D113254FBCEC00674886 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5E7D115254FBCEC00674886 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +55,9 @@
 		F5E7D11F254FBCFB00674886 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5E7D121254FBCFB00674886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5F40FE525501FD10080B914 /* firebase.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = firebase.sh; sourceTree = "<group>"; };
+		F5F40FFD2550D65E0080B914 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F5F410022550D6B30080B914 /* Master-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Master-Info.plist"; sourceTree = "<group>"; };
+		F5F410032550D6B30080B914 /* Littleboy-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Littleboy-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,11 +114,10 @@
 		F5E7D107254FBCEC00674886 = {
 			isa = PBXGroup;
 			children = (
+				F5F40FFD2550D65E0080B914 /* Default-568h@2x.png */,
 				F5F40FE425501FD10080B914 /* Crashlytics */,
 				F5E7D112254FBCEC00674886 /* BaaBlackSheep */,
 				F5E7D111254FBCEC00674886 /* Products */,
-				F52C3A24254FDD4600AEA931 /* Dame copy-Info.plist */,
-				F52C3A35254FDD4E00AEA931 /* LittleBoy copy-Info.plist */,
 				CB43601BD04E7977C3356731 /* Pods */,
 				976415CA34718EBDE469E757 /* Frameworks */,
 			);
@@ -139,6 +143,8 @@
 				F5E7D11C254FBCFB00674886 /* Assets.xcassets */,
 				F5E7D11E254FBCFB00674886 /* LaunchScreen.storyboard */,
 				F5E7D121254FBCFB00674886 /* Info.plist */,
+				F5F410032550D6B30080B914 /* Littleboy-Info.plist */,
+				F5F410022550D6B30080B914 /* Master-Info.plist */,
 			);
 			path = BaaBlackSheep;
 			sourceTree = "<group>";
@@ -349,8 +355,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F52C3A1B254FDD4600AEA931 /* LaunchScreen.storyboard in Resources */,
+				F5F410062550D6B30080B914 /* Littleboy-Info.plist in Resources */,
 				F52C3A1D254FDD4600AEA931 /* Assets.xcassets in Resources */,
 				F52C3A1E254FDD4600AEA931 /* Main.storyboard in Resources */,
+				F5F40FFE2550D65E0080B914 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +368,8 @@
 			files = (
 				F52C3A2C254FDD4E00AEA931 /* LaunchScreen.storyboard in Resources */,
 				F52C3A2E254FDD4E00AEA931 /* Assets.xcassets in Resources */,
+				F5F410052550D6B30080B914 /* Master-Info.plist in Resources */,
+				F5F40FFF2550D6620080B914 /* Default-568h@2x.png in Resources */,
 				F52C3A2F254FDD4E00AEA931 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -573,7 +583,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "Dame copy-Info.plist";
+				INFOPLIST_FILE = "BaaBlackSheep/Littleboy-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -593,7 +603,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "Dame copy-Info.plist";
+				INFOPLIST_FILE = "BaaBlackSheep/Littleboy-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -613,7 +623,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "LittleBoy copy-Info.plist";
+				INFOPLIST_FILE = "BaaBlackSheep/Master-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -633,7 +643,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "LittleBoy copy-Info.plist";
+				INFOPLIST_FILE = "BaaBlackSheep/Master-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
